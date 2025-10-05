@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="CSS/estiloIndex.css">
+</head>
+<body>
+    <div class="contenedor_principal">
+        <h1>Bienvenido</h1>
+        <p class="subtitulo">Regístrate</p>
+        <div id="registro" class="estilo_cont_datos">
+            
+            <form action="PHP/registro.php" method="POST" id="formato_cliente">
+                <div class="estiloDato">
+                    <p class="titulo_dato">DNI:</p>
+                    <input type="text" name="dni" id="registro_dni" class="entrada_datos" required>
+                </div>
+
+                <div class="estiloDato">
+                    <p class="titulo_dato">Nombre:</p>
+                    <input type="text" name="nombre" id="registro_nombre" class="entrada_datos" required>
+                </div>
+
+                <div class="estiloDato">
+                    <p class="titulo_dato">Fecha nacimiento:</p>
+                    <input type="date" name="fecha_nac" id="registro_fechnac" class="entrada_datos" required>
+                </div>
+
+                <div class="estiloDato">
+                    <p class="titulo_dato">Teléfono:</p>
+                    <input type="tel" name="tfno" id="registro_telefono" class="entrada_datos" required>
+                </div>
+
+                <input type="submit" value="Registrarse" class="btn" id="btn_registrar">
+
+            </form>
+
+            <div id="inciarSesionlink" class="registrarse">
+                <p>¿Ya tienes una cuenta? <a href="index.html"> Inicia Sesión</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

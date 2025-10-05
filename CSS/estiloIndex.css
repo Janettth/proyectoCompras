@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(250, 215, 221);
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.contenedor_principal{
+    background-color: rgba(228, 81, 130, 0.667);
+    padding: 10px;
+    border-radius: 25px;
+    width: 40%;
+
+    align-content: center;
+    text-align: center;
+}
+
+.contenedor_principal h1{
+    margin: 4px;
+    color: palegreen;
+}
+.subtitulo{
+    color: palegreen;
+    margin: 4px;
+}
+
+.estilo_cont_datos{
+    padding: 10px;
+    text-align: start;
+}
+
+.estilo_cont_datos p{
+    margin: 3px;
+    color: palegreen;
+
+    margin-left: 20px;
+}
+
+.entrada_datos{
+    background-color: rgb(250, 215, 221);
+    border-radius: 25px;
+    width: 95%;
+    border: none;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+    color: rgb(228, 81, 130);
+    margin: 5px;
+}
+
+.btn{
+    background-color: rgb(228, 81, 130);
+    width: 100%;
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    margin-top: 15px;color: rgb(250, 215, 221);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(173, 47, 89);
+}
+
+.registrarse{
+    text-align: center;
+    margin: 15px;
+    color: rgb(250, 215, 221);
+}
+
+.registrarse a{ 
+   color: rgb(250, 215, 221);
+}
